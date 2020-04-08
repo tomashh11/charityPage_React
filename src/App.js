@@ -1,9 +1,19 @@
 import React from 'react';
-import './App.scss';
+import * as Scroll from 'react-scroll';
+import {
+    HashRouter,
+    Route,
+    Switch,
+} from 'react-router-dom';
+import Home from "./components/Home";
 
 function App() {
     return (
-        <div className="app">Aplikacja</div>
+        <HashRouter>
+            <>
+                <Home/>
+            </>
+        </HashRouter>
     );
 }
 

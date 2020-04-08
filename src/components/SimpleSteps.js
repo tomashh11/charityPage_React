@@ -1,9 +1,9 @@
 import React from 'react';
 
-const HomeSimpleSteps = () => {
+const SimpleSteps = () => {
     return <>
     <div>Home Simple Steps</div>
     </>
 };
 
-export default HomeSimpleSteps;
+export default SimpleSteps;
