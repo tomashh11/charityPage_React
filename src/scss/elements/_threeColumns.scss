@@ -1,0 +1,41 @@
+.threeColumns {
+  background-image: url("../../assets/3_Columns_Background.png");
+}
+
+.mainSection {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0 150px;
+}
+
+.mainSection h2 {
+  margin: 46px 0 30px;
+  font-family: $fontBase;
+  font-weight: 300;
+  font-size: 90px;
+  color: #5E5322;
+}
+
+.mainSection h3 {
+  margin-bottom: 28px;
+  font-family: $fontBase;
+  font-weight: 400;
+  color: #3C3C3C;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.mainSection p {
+  font-family: $fontAlt;
+  font-size: 14px;
+  font-weight: 300;
+  color: #3C3C3C;
+  line-height: 200%;
+  padding-bottom: 85px;
+  letter-spacing: -0.32px;
+}
+
+.singleSection {
+  max-width: 335px;
+}
