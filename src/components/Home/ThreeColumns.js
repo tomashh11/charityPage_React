@@ -2,7 +2,7 @@ import React from 'react';
 
 const ThreeColumns = () => {
     return <>
-        <div className="threeColumns container" id="about">
+        <div className="threeColumns container">
             <div className="mainSection">
                 <div className="singleSection">
                     <h2>10</h2>
