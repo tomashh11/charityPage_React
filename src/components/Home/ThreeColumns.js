@@ -2,7 +2,7 @@ import React from 'react';
 
 const ThreeColumns = () => {
     return <>
-    <div>Home Three Columns</div>
+    <div id="about">Home Three Columns</div>
     </>
 };
 

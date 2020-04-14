@@ -4,7 +4,7 @@ import ThreeColumns from "./ThreeColumns";
 import SimpleSteps from "./SimpleSteps";
 import AboutUs from "./AboutUs";
 import WhoWeHelp from "./WhoWeHelp";
-import Contact from "./Contact";
+import Contact from "../Contact";
 
 const Home = () => {
     return <>
