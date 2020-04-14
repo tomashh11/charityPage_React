@@ -1,0 +1,55 @@
+.mainAboutUs {
+  height: 100vh;
+  display: flex;
+  background-color: #F0F1F1;
+  margin-top: 80px;
+  position: relative;
+}
+
+.aboutUsDescription {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutUsDescription h2 {
+  margin: 185px 0 26px;
+  font-family: $fontBase;
+  font-size: 38px;
+  color: #3C3C3C;
+}
+
+.aboutUsDescription p {
+  text-align: center;
+  line-height: 180%;
+  font-weight: 300;
+  width: 650px;
+  font-family: $fontBase;
+  font-size: 30px;
+}
+
+.aboutUsSign {
+  position: relative;
+  top: 50px;
+  right: -200px;
+  background-image: url("../../assets/Signature.svg");
+  background-repeat: no-repeat;
+  height: 150px;
+  width: 210px;
+}
+
+.aboutUsLogo {
+  background-image: url("../../assets/Decoration.svg");
+  width: 253px;
+  height: 33px;
+  margin-bottom: 55px;
+}
+
+.aboutUsPhoto {
+  height: 100vh;
+  width: 50vw;
+  background-image: url("../../assets/People.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
