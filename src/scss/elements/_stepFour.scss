@@ -1,0 +1,208 @@
+.labelStepFourText {
+  font-size: 22px;
+  font-family: $fontBase;
+  color: #3C3C3C;
+  margin-left: 140px;
+}
+
+.stepFourForm {
+  margin-bottom: -844px;
+  .stepFourFormBackground {
+    position: relative;
+    top: 34px;
+    left: -140px;
+    background-image: url("../../assets/Background-Form.jpg");
+    width: 1900px;
+    height: 883px;
+    z-index: -1;
+  }
+
+  .stepFourFormCurrentStep {
+    position: relative;
+    top: -800px;
+    font-size: 24px;
+    font-weight: 300;
+    font-family: $fontBase;
+    color: #3C3C3C;
+    margin-left: 140px;
+  }
+
+  .stepFourFormTitle {
+    position: relative;
+    top: -720px;
+    margin-left: 140px;
+    font-family: $fontBase;
+    font-size: 32px;
+    font-weight: 600;
+  }
+
+  .stepFourFormAddress {
+    position: relative;
+    top: -650px;
+    font-size: 24px;
+    font-family: $fontBase;
+    font-weight: 600;
+    margin-left: 140px;
+  }
+
+  .addressContainer {
+    position: relative;
+    top: -630px;
+    font-family: $fontBase;
+    font-size: 24px;
+    font-weight: 300;
+    margin-left: 140px;
+    input[type="text"] {
+      background-color: transparent;
+      width: 256px;
+      height: 40px;
+      border: 0.75px solid #3C3C3C;
+      margin-bottom: 20px;
+    }
+    .stepFourInputStreet {
+      margin-left: 90px;
+      outline: none;
+    }
+    .stepFourInputCity {
+      margin-left: 70px;
+      outline: none;
+    }
+    .stepFourPhoneNumber {
+      width: 100px;
+      margin-left: 140px;
+    }
+  }
+
+  .addressContainerPostCode {
+    font-family: $fontBase;
+    font-size: 24px;
+    font-weight: 300;
+    position: relative;
+    top: -616px;
+    .stepFourPostCode {
+      width: 100px;
+      margin-left: 140px;
+    }
+    .stepFourInputPostCode {
+      position: relative;
+      top: -55px;
+      left: 283px;
+      background-color: transparent;
+      width: 256px;
+      height: 40px;
+      border: 0.75px solid #3C3C3C;
+      outline: none;
+    }
+  }
+
+  .addressContainerPhoneNumber {
+    font-family: $fontBase;
+    font-size: 24px;
+    font-weight: 300;
+    position: relative;
+    top: -637px;
+    .stepFourPhoneNumber {
+      width: 100px;
+      margin-left: 140px;
+    }
+    .stepFourInputPhoneNumber {
+      position: relative;
+      top: -55px;
+      left: 283px;
+      background-color: transparent;
+      width: 256px;
+      height: 40px;
+      border: 0.75px solid #3C3C3C;
+      outline: none;
+    }
+  }
+
+  .stepFourDateOfReceipt {
+    position: relative;
+    top: -1034px;
+    left: 650px;
+    font-family: $fontBase;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .stepFourDateOfReceiptDateContainer {
+    font-family: $fontBase;
+    font-size: 24px;
+    font-weight: 300;
+    position: relative;
+    top: -996px;
+    left: 650px;
+    .stepFourDateOfReceiptDateInput {
+      position: relative;
+      top: -5px;
+      left: 70px;
+      width: 206px;
+      height: 40px;
+      background-color: transparent;
+      border: 0.75px solid #3C3C3C;
+      outline: none;
+    }
+  }
+
+  .stepFourDateOfReceiptTimeContainer {
+    font-family: $fontBase;
+    font-size: 24px;
+    font-weight: 300;
+    position: relative;
+    top: -965px;
+    left: 650px;
+    .stepFourDateOfReceiptTimeInput {
+      position: relative;
+      top: -5px;
+      left: 31px;
+      width: 206px;
+      height: 40px;
+      background-color: transparent;
+      border: 0.75px solid #3C3C3C;
+      outline: none;
+    }
+  }
+
+  .stepFourDateOfReceiptMessageToCourierContainer {
+    font-family: $fontBase;
+    font-size: 24px;
+    font-weight: 300;
+    position: relative;
+    top: -930px;
+    left: 650px;
+    .stepFourMessageToCourierContainer {
+      width: 105px;
+      line-height: 28px;
+    }
+    .stepFourDateOfReceiptMessageToCourierInput {
+      position: relative;
+      top: -57px;
+      left: 120px;
+      width: 206px;
+      height: 120px;
+      background-color: transparent;
+      border: 0.75px solid #3C3C3C;
+      outline: none;
+    }
+  }
+
+  .stepFourBtn {
+    position: relative;
+    top: -809px;
+    width: 180px;
+    height: 80px;
+    font-family: $fontBase;
+    font-size: 24px;
+    font-weight: 300;
+    margin-left: 140px;
+    background-color: transparent;
+    border: 0.75px solid #3C3C3C;
+    outline: none;
+  }
+
+  .stepFourBtn:hover {
+    cursor: pointer;
+    background-color: #ddd;
+  }
+}

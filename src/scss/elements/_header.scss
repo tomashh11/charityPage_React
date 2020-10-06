@@ -9,116 +9,86 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: -480px;
+  .login {
+    font-size: 14px;
+    font-family: $fontBase;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 37px;
+    margin-right: 62px;
+    li a {
+      text-decoration: none;
+      color: #737373;
+      padding: 9px 10px;
+      margin-left: 10px;
+      border: 0.75px solid white;
+    }
+    li a:hover {
+      border: 0.75px solid #FAD648;
+      cursor: pointer;
+    }
+  }
+  .slogan {
+    position: relative;
+    margin-top: 210px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: center;
+    .text {
+      width: 705px;
+      height: 110px;
+      color: #3C3C3C;
+      font-family: $fontBase;
+      font-size: 38px;
+      margin-right: 125px;
+      p {
+        line-height: 150%;
+      }
+    }
+    .decoration {
+      position: absolute;
+      top: 150px;
+      right: 350px;
+      width: 253px;
+      height: 33px;
+      background-image: url("../../assets/Decoration.svg");
+      margin: 0 auto;
+    }
+    .options {
+      display: flex;
+      font-family: $fontBase;
+      font-weight: 300;
+      font-size: 36px;
+      text-transform: uppercase;
+      .thingsLink {
+        position: relative;
+        top: 140px;
+        right: 185px;
+        line-height: 120%;
+        border: 0.75px solid #3C3C3C;
+        padding: 13px 0;
+        width: 310px;
+        text-decoration: none;
+        color: #3C3C3C;
+      }
+      .charityLink {
+        position: relative;
+        top: 140px;
+        right: 149px;
+        line-height: 120%;
+        border: 0.75px solid #3C3C3C;
+        padding: 13px 0;
+        width: 310px;
+        text-decoration: none;
+        color: #3C3C3C;
+      }
+    }
+  }
 }
 
-.login {
-  font-size: 14px;
-  font-family: $fontBase;
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 37px;
-  margin-right: 72px;
-}
 
-.login li a {
-  text-decoration: none;
-  color: #737373;
-  padding: 9px 10px;
-  margin-left: 10px;
-  border: 0.75px solid white;
-}
 
-.login li a:hover {
-  border: 0.75px solid #FAD648;
-  cursor: pointer;
-}
 
-.pageInfo {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 26px;
-  margin-right: 52px;
-  color: #3C3C3C;
-  font-size: 18px;
-  font-family: $fontBase;
-}
 
-.pageInfo a {
-  margin-left: 35px;
-  padding: 9px 20px;
-  border: 0.75px solid white;
-  cursor: pointer;
-}
 
-.pageInfo a:hover {
-  border: 0.75px solid #3C3C3C;
-}
-
-.pageInfo .active {
-  border: 0.75px solid #3C3C3C;
-}
-
-.slogan {
-  position: relative;
-  margin-top: 210px;
-  display: flex;
-  align-items: flex-end;
-  flex-direction: column;
-  text-align: center;
-}
-
-.decoration {
-  position: absolute;
-  top: 150px;
-  right: 350px;
-  width: 253px;
-  height: 33px;
-  background-image: url("../../assets/Decoration.svg");
-  margin: 0 auto;
-}
-
-.text p {
-  line-height: 150%;
-}
-
-.text {
-  width: 705px;
-  height: 110px;
-  color: #3C3C3C;
-  font-family: $fontBase;
-  font-size: 38px;
-  margin-right: 125px;
-}
-
-.options {
-  display: flex;
-  font-family: $fontBase;
-  font-weight: 300;
-  font-size: 36px;
-  text-transform: uppercase;
-}
-
-.options li:first-child {
-  position: relative;
-  top: 140px;
-  right: 185px;
-  line-height: 120%;
-  border: 0.75px solid #3C3C3C;
-  padding: 13px 0;
-  width: 310px;
-}
-
-.options li a {
-  text-decoration: none;
-  color: #3C3C3C;
-}
-
-.options li:last-child {
-  position: relative;
-  top: 140px;
-  right: 149px;
-  line-height: 120%;
-  border: 0.75px solid #3C3C3C;
-  padding: 13px 0;
-  width: 310px;
-}

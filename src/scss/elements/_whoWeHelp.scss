@@ -1,0 +1,102 @@
+.whoWeHelpContainer {
+  width: 1345px;
+  margin: 70px auto 0;
+  text-align: center;
+  .whoWeHelpHeader {
+    font-family: $fontBase;
+    font-size: 38px;
+    color: #3C3C3C;
+  }
+  .decorationsLogo {
+    background-image: url("../../assets/Decoration.svg");
+    width: 253px;
+    height: 33px;
+    margin: 25px auto 0;
+  }
+  .btnContainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 170px 70px 170px;
+    button {
+      margin-top: 50px;
+      border: none;
+      font-size: 24px;
+      font-family: $fontBase;
+      color: #3C3C3C;
+      padding: 23px 42px;
+      border: 0.75px solid white;
+      outline: none;
+    }
+    button:hover {
+      border: 0.75px solid #3C3C3C;
+      cursor: pointer;
+    }
+  }
+  .pageNumbers {
+    display: flex;
+    justify-content: center;
+  }
+  .whoWeHelpSlogan {
+    margin: 0 auto 66px;
+    font-family: $fontBase;
+    font-size: 22px;
+    color: #3C3C3C;
+    width: 580px;
+  }
+}
+
+.liContainer {
+  display: flex;
+  justify-content: space-between;
+  .liSubContainer {
+    display: flex;
+    flex-direction: column;
+    .liHeader {
+      font-family: $fontAlt;
+      font-weight: 300;
+      color: #3C3C3C;
+      font-size: 24px;
+      margin-top: 30px;
+    }
+    .liSubheader {
+      font-family: $fontAlt;
+      font-weight: 300;
+      font-style: italic;
+      color: #3C3C3C;
+      font-size: 18px;
+      text-align: left;
+      margin: 5px 0 30px 0;
+    }
+  }
+  .liDesc {
+    font-family: $fontAlt;
+    font-size: 18px;
+    font-weight: 300;
+    color: #3C3C3C;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+}
+
+.liUnderline {
+  border-bottom: 1px solid #707070;
+}
+
+li:nth-child(3) div.liUnderline {
+  border: none;
+}
+
+.liPage {
+  font-family: $fontBase;
+  font-size: 18px;
+  color: #3C3C3C;
+  margin-right: 40px;
+  padding: 13px 15px;
+  border: 1px solid white;
+}
+
+.liPage:hover {
+  cursor: pointer;
+  border: 1px solid #707070;
+}

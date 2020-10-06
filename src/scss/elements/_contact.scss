@@ -1,0 +1,171 @@
+.contactContainer {
+  display: flex;
+  height: 100vh;
+  margin-top: 80px;
+  position: relative;
+  .contactImg {
+    background-image: url("../../assets/Background-Contact-Form.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60vw;
+    opacity: 0.1;
+  }
+  .contactCopyrights {
+    position: absolute;
+    left: 45vw;
+    bottom: 20px;
+    font-family: $fontBase;
+    font-size: 18px;
+    color: #3C3C3C;
+  }
+  .contactIcons {
+    display: flex;
+    position: absolute;
+    right: 215px;
+    bottom: 20px;
+    .contactFacebook {
+      background-image: url(../../assets/Facebook.svg);
+      background-repeat: no-repeat;
+      width: 30px;
+      height: 30px;
+      background-size: contain;
+    }
+    .contactInstagram {
+      background-image: url(../../assets/Instagram.svg);
+      background-repeat: no-repeat;
+      width: 30px;
+      height: 30px;
+      background-size: contain;
+      margin-left: 20px;
+    }
+  }
+  .subHeaderContainer {
+    margin-right: 80px;
+  }
+  .contactHeader {
+    text-align: center;
+    font-family: $fontBase;
+    font-size: 38px;
+    color: #3C3C3C;
+    margin-top: 150px;
+  }
+  .contactDecoration {
+    background-image: url("../../assets/Decoration.svg");
+    width: 253px;
+    height: 33px;
+    margin: 25px auto 75px;
+  }
+}
+
+input[type="text"], input[type="email"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  font-family: $fontBase;
+  font-size: 18px;
+  margin-top: 12px;
+  width: 220px;
+}
+input[type="text"].borderNone, input[type="email"].borderNone {
+  border-bottom: none;
+}
+.errorUnderline {
+  width: 220px;
+  border-top: 2px solid red;
+}
+input[type="text"]::placeholder, input[type="email"]::placeholder {
+  opacity: 0.2;
+}
+
+.headerInputContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  .headerInputText, .headerInputEmail {
+    font-family: $fontBase;
+    font-size: 16px;
+    font-weight: 400;
+    color: #3C3C3C;
+  }
+  .headerInputEmail {
+    margin-left: 15px;
+  }
+}
+
+.contactTextArea {
+  font-family: $fontBase;
+  font-size: 16px;
+  font-weight: 400;
+  color: #3C3C3C;
+  textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    font-family: $fontBase;
+    font-size: 18px;
+    margin-top: 12px;
+    width: 455px;
+    text-align: left;
+  }
+  textarea.borderNone {
+    border-bottom: none;
+  }
+  .errorUnderlineTextarea {
+    width: 455px;
+    border-top: 2px solid red;
+  }
+  textarea::placeholder {
+    opacity: 0.2;
+  }
+}
+
+.submitContainer {
+  display: flex;
+  justify-content: flex-end;
+  button[type="submit"] {
+    font-family: $fontBase;
+    font-size: 18px;
+    font-weight: 300;
+    color: #000000;
+    padding: 13px 52px;
+    border: 0.75px solid transparent;
+    cursor: pointer;
+    margin-top: 45px;
+    outline: none;
+  }
+  button[type="submit"]:hover {
+    border: 0.75px solid #3C3C3C;
+  }
+}
+
+.errors {
+  color: red;
+  margin-top: 8px;
+  font-family: $fontBase;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.success {
+  color: limegreen;
+  font-family: $fontBase;
+  font-weight: 700;
+  font-size: 16px;
+  width: 230px;
+  margin: 0 auto;
+  line-height: 130%;
+  text-align: center;
+  padding-top: 45px;
+}
+
+
+
+
+
+
+

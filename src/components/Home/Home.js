@@ -5,15 +5,18 @@ import SimpleSteps from "./SimpleSteps";
 import AboutUs from "./AboutUs";
 import WhoWeHelp from "./WhoWeHelp";
 import Contact from "../Contact";
+import {HashRouter} from "react-router-dom";
 
 const Home = () => {
     return <>
-        <Header/>
-        <ThreeColumns/>
-        <SimpleSteps/>
-        <AboutUs/>
-        <WhoWeHelp/>
-        <Contact/>
+        <HashRouter>
+            <Header/>
+            <ThreeColumns/>
+            <SimpleSteps/>
+            <AboutUs/>
+            <WhoWeHelp/>
+            <Contact/>
+        </HashRouter>
     </>
 };
 

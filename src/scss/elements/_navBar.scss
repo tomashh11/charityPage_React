@@ -1,0 +1,21 @@
+.pageInfo {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 26px;
+  margin-right: 52px;
+  color: #3C3C3C;
+  font-size: 18px;
+  font-family: $fontBase;
+  a {
+    margin-left: 35px;
+    padding: 9px 20px;
+    border: 0.75px solid white;
+    cursor: pointer;
+  }
+  a:hover {
+    border: 0.75px solid #3C3C3C;
+  }
+  .active {
+    border: 0.75px solid #3C3C3C;
+  }
+}
