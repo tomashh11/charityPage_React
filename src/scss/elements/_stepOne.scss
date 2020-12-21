@@ -1,266 +1,281 @@
-.login {
-  margin-right: 62px;
-}
+.mainStepsContainer {
+  max-width: 1440px;
+  overflow: hidden;
+  .login {
+    margin-right: 62px;
+  }
 
-.mainForm {
-  position: relative;
-  .backgroundImage {
-    position: absolute;
-    top: -115px;
-    width: 900px;
-    height: 800px;
-    background-image: url("../../assets/Form-Hero-Image.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    z-index: -1;
-  }
-  .textContent {
-    .charityTitle {
-      position: relative;
-      top: 80px;
-      left: 260px;
-      font-family: $fontBase;
-      color: #3C3C3C;
-      font-size: 38px;
-      text-align: center;
-      font-weight: 400;
-    }
-    .decoration {
-      position: relative;
-      top: 110px;
-      left: 975px;
-      width: 253px;
-      height: 33px;
-      background-image: url("../../assets/Decoration.svg");
-    }
-    .steps {
-      position: relative;
-      top: 140px;
-      left: 880px;
-      font-size: 40px;
-      font-family: $fontBase;
-      font-weight: 300;
-      color: #3C3C3C;
-    }
-    .stepsContainer {
-      position: relative;
-      top: 250px;
-      left: 880px;
-      display: flex;
-      font-family: $fontBase;
-      font-size: 22px;
-      font-weight: 300;
-      color: #3C3C3C;
-      margin-bottom: 200px;
-      .stepOne {
-        position: relative;
-        margin-right: 50px;
-        margin-left: -60px;
-        text-align: center;
-        .stepTitle {
-          font-size: 32px;
-          margin-bottom: 10px;
-        }
-        .stepText {
-          line-height: 25px;
-        }
-        .stepOneBorder {
-          position: absolute;
-          top: 0px;
-          left: -32px;
-          width: 140px;
-          height: 140px;
-          border: 0.75px solid #3C3C3C;
-          transform: rotate(45deg);
-        }
-      }
-      .stepTwo {
-        position: relative;
-        margin-right: 50px;
-        margin-left: 35px;
-        text-align: center;
-        .stepTitle {
-          font-size: 32px;
-          margin-bottom: 10px;
-        }
-        .stepText {
-          line-height: 25px;
-        }
-        .stepTwoBorder {
-          position: absolute;
-          top: 0px;
-          left: -26px;
-          width: 140px;
-          height: 140px;
-          border: 0.75px solid #3C3C3C;
-          transform: rotate(45deg);
-        }
-      }
-      .stepThree {
-        position: relative;
-        margin-right: 50px;
-        margin-left: 35px;
-        text-align: center;
-        .stepTitle {
-          font-size: 32px;
-          margin-bottom: 10px;
-        }
-        .stepText {
-          line-height: 25px;
-        }
-        .stepThreeBorder {
-          position: absolute;
-          top: 0px;
-          left: -28px;
-          width: 140px;
-          height: 140px;
-          border: 0.75px solid #3C3C3C;
-          transform: rotate(45deg);
-        }
-      }
-      .stepFour {
-        position: relative;
-        margin-left: 50px;
-        text-align: center;
-        .stepTitle {
-          font-size: 32px;
-          margin-bottom: 10px;
-          margin-left: -18px;
-        }
-        .stepText {
-          line-height: 25px;
-          margin-left: -8px;
-        }
-        .stepFourBorder {
-          position: absolute;
-          top: 0px;
-          left: -43px;
-          width: 140px;
-          height: 140px;
-          border: 0.75px solid #3C3C3C;
-          transform: rotate(45deg);
-        }
-      }
-    }
-  }
-  .yellowLabel {
-    .labelBackground {
-      position: relative;
-      top: 200px;
-      height: 180px;
-      background-color: #FAD648;
+  .mainForm {
+    position: relative;
+    .backgroundImage {
+      position: absolute;
+      top: -115px;
+      width: 800px;
+      height: 700px;
+      background-image: url("../../assets/Form-Hero-Image.jpg");
+      background-repeat: no-repeat;
+      background-size: contain;
       z-index: -1;
     }
-    .labelTitle {
-      font-size: 36px;
-      font-weight: 600;
-      color: #000000;
-      font-family: $fontBase;
-      margin: 70px 0 10px 140px;
+    .textContent {
+      .charityTitle {
+        position: relative;
+        top: 80px;
+        left: 260px;
+        font-family: $fontBase;
+        color: #3C3C3C;
+        font-size: 34px;
+        text-align: center;
+        font-weight: 400;
+      }
+      .decoration {
+        position: relative;
+        top: 110px;
+        left: 855px;
+        width: 253px;
+        height: 33px;
+        background-image: url("../../assets/Decoration.svg");
+      }
+      .steps {
+        position: relative;
+        top: 140px;
+        left: 785px;
+        font-size: 36px;
+        font-family: $fontBase;
+        font-weight: 300;
+        color: #3C3C3C;
+      }
+      .stepsContainer {
+        position: relative;
+        top: 225px;
+        left: 815px;
+        display: flex;
+        font-family: $fontBase;
+        font-size: 22px;
+        font-weight: 300;
+        color: #3C3C3C;
+        margin-bottom: 200px;
+        .stepOne {
+          position: relative;
+          margin-right: 50px;
+          margin-left: -60px;
+          text-align: center;
+          .stepTitle {
+            font-size: 28px;
+            margin-bottom: 10px;
+          }
+          .stepText {
+            line-height: 21px;
+          }
+          .stepOneBorder {
+            position: absolute;
+            top: 0px;
+            left: -17px;
+            width: 110px;
+            height: 110px;
+            border: 0.75px solid #3C3C3C;
+            transform: rotate(45deg);
+          }
+        }
+        .stepTwo {
+          position: relative;
+          left: -34px;
+          margin-right: 50px;
+          margin-left: 35px;
+          text-align: center;
+          .stepTitle {
+            font-size: 28px;
+            margin-bottom: 10px;
+          }
+          .stepText {
+            line-height: 21px;
+          }
+          .stepTwoBorder {
+            position: absolute;
+            top: 0px;
+            left: -12px;
+            width: 110px;
+            height: 110px;
+            border: 0.75px solid #3C3C3C;
+            transform: rotate(45deg);
+          }
+        }
+        .stepThree {
+          position: relative;
+          left: -71px;
+          margin-right: 50px;
+          margin-left: 35px;
+          text-align: center;
+          .stepTitle {
+            font-size: 28px;
+            margin-bottom: 10px;
+          }
+          .stepText {
+            line-height: 21px;
+          }
+          .stepThreeBorder {
+            position: absolute;
+            top: 0px;
+            left: -13px;
+            width: 110px;
+            height: 110px;
+            border: 0.75px solid #3C3C3C;
+            transform: rotate(45deg);
+          }
+        }
+        .stepFour {
+          position: relative;
+          left: -104px;
+          margin-left: 50px;
+          text-align: center;
+          .stepTitle {
+            font-size: 28px;
+            margin-bottom: 10px;
+            margin-left: -18px;
+          }
+          .stepText {
+            line-height: 21px;
+            margin-left: -8px;
+          }
+          .stepFourBorder {
+            position: absolute;
+            top: 0px;
+            left: -30px;
+            width: 110px;
+            height: 110px;
+            border: 0.75px solid #3C3C3C;
+            transform: rotate(45deg);
+          }
+        }
+      }
     }
-    .labelText {
-      font-size: 22px;
+    .yellowLabel {
+      .labelBackground {
+        position: relative;
+        top: 140px;
+        height: 180px;
+        background-color: #FAD648;
+        z-index: -1;
+      }
+      .labelTitle {
+        font-size: 32px;
+        font-weight: 600;
+        color: #000000;
+        font-family: $fontBase;
+        margin: 14px 0 10px 140px;
+      }
+      .labelText {
+        font-size: 18px;
+        font-family: $fontBase;
+        color: #3C3C3C;
+        font-weight: 400;
+        margin-left: 140px;
+      }
+      .labelStepFourText {
+        font-size: 18px;
+        margin-left: 140px;
+        font-family: $fontBase;
+        color: #3C3C3C;
+      }
+    }
+  }
+
+  .stepOneForm {
+    margin-bottom: -819px;
+    .stepOneFormBackground {
+      position: relative;
+      top: 66px;
+      background-image: url("../../assets/Background-Form.jpg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 1440px;
+      height: 883px;
+      z-index: -1;
+    }
+    .stepOneFormCurrentStep {
+      position: relative;
+      top: -789px;
       font-family: $fontBase;
+      font-size: 20px;
+      font-weight: 300;
       color: #3C3C3C;
-      font-weight: 400;
       margin-left: 140px;
     }
-  }
-}
-
-.stepOneForm {
-  margin-bottom: -540px;
-  .stepOneFormBackground {
-    position: relative;
-    top: 62px;
-    left: -140px;
-    background-image: url("../../assets/Background-Form.jpg");
-    width: 1900px;
-    height: 883px;
-    z-index: -1;
-  }
-  .stepOneFormCurrentStep {
-    position: relative;
-    top: -760px;
-    font-family: $fontBase;
-    font-size: 24px;
-    font-weight: 300;
-    color: #3C3C3C;
-    margin-left: 140px;
-  }
-  .stepOneFormTitle {
-    position: relative;
-    top: -680px;
-    font-size: 36px;
-    font-family: $fontBase;
-    font-weight: 600;
-    color: #000;
-    margin-left: 140px;
-  }
-  .stepOneFormContainer {
-    position: relative;
-    top: -630px;
-    display: flex;
-    align-items: center;
-    margin-left: 140px;
-    font-family: $fontBase;
-    font-size: 24px;
-    font-weight: 300;
-  }
-  .stepOneFormInput {
-    -webkit-appearance: none;
-    position: relative;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    border: 0.75px solid #3C3C3C;
-    margin: 20px 30px 20px 0;
-  }
-  .stepOneFormInput:hover {
-    cursor: pointer;
-  }
-  .stepOneFormInput:focus {
-    outline: none;
-  }
-  .stepOneFormInput:checked {
-    background-color: #FAD648;
-  }
-  .mainPage {
-    display: block;
-    position: relative;
-    top: -505px;
-    left: 140px;
-    background-color: transparent;
-    text-decoration: none;
-    font-size: 24px;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: $fontBase;
-    font-weight: 300;
-    color: #000000;
-    width: 240px;
-    line-height: 52px;
-    border: 0.75px solid #3C3C3C;
-  }
-  .mainPage:hover {
-    background-color: #ddd;
-    cursor: pointer;
-  }
-  button {
-    position: relative;
-    top: -585px;
-    width: 180px;
-    height: 80px;
-    font-family: $fontBase;
-    font-size: 24px;
-    font-weight: 300;
-    margin-left: 460px;
-    background-color: transparent;
-    border: 0.75px solid #3C3C3C;
-    outline: none;
-  }
-  button:hover {
-    cursor: pointer;
-    background-color: #ddd;
+    .stepOneFormTitle {
+      position: relative;
+      top: -756px;
+      font-size: 26px;
+      font-family: $fontBase;
+      font-weight: 600;
+      color: #000;
+      margin-left: 140px;
+    }
+    .stepOneFormContainer {
+      position: relative;
+      top: -739px;
+      display: flex;
+      align-items: center;
+      margin-left: 140px;
+      font-family: $fontBase;
+      font-size: 20px;
+      font-weight: 300;
+    }
+    .stepOneFormInput {
+      -webkit-appearance: none;
+      position: relative;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      border: 0.75px solid #3C3C3C;
+      margin: 20px 30px 20px 0;
+    }
+    .stepOneFormInput:hover {
+      cursor: pointer;
+    }
+    .stepOneFormInput:focus {
+      outline: none;
+    }
+    .stepOneFormInput:checked {
+      background-color: #FAD648;
+    }
+    .mainPage {
+      display: block;
+      position: relative;
+      top: -704px;
+      left: 140px;
+      background-color: transparent;
+      text-decoration: none;
+      font-size: 20px;
+      text-align: center;
+      text-transform: uppercase;
+      font-family: $fontBase;
+      font-weight: 300;
+      color: #000000;
+      width: 240px;
+      height: 80px;
+      line-height: 80px;
+      border: 0.75px solid #3C3C3C;
+    }
+    .mainPage:hover {
+      background-color: #ddd;
+      cursor: pointer;
+    }
+    .stepOneBtn {
+      position: relative;
+      top: -784px;
+      width: 180px;
+      height: 80px;
+      font-family: $fontBase;
+      font-size: 20px;
+      font-weight: 300;
+      margin-left: 460px;
+      background-color: transparent;
+      border: 0.75px solid #3C3C3C;
+      outline: none;
+    }
+    .stepOneBtn:hover {
+      cursor: pointer;
+      background-color: #ddd;
+    }
   }
 }

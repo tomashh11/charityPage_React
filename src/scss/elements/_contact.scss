@@ -1,6 +1,6 @@
 .contactContainer {
   display: flex;
-  height: 100vh;
+  height: 105vh;
   margin-top: 80px;
   position: relative;
   .contactImg {
@@ -21,7 +21,7 @@
   .contactIcons {
     display: flex;
     position: absolute;
-    right: 215px;
+    right: 120px;
     bottom: 20px;
     .contactFacebook {
       background-image: url(../../assets/Facebook.svg);

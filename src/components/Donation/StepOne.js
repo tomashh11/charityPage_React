@@ -83,71 +83,74 @@ const StepOne = (props) => {
             </>
         } else {
             return <>
-                <ul className="login">
-                    <li>Cześć {userState.email}!</li>
-                    <li><Link to="/donation">Oddaj rzeczy</Link></li>
-                    <li><Link to="/logout" onClick={logOut}>Wyloguj</Link></li>
-                </ul>
-                <NavBar/>
-                <div className="mainForm">
-                    <div className="backgroundImage"></div>
-                    <div className="textContent">
-                        <h1 className="charityTitle">Oddaj rzeczy, których już nie chcesz <br/> POTRZEBUJĄCYM</h1>
-                        <div className="decoration"></div>
-                        <h2 className="steps">Wystarczą 4 proste kroki:</h2>
-                        <div className="stepsContainer">
-                            <div className="stepOne">
-                                <h3 className="stepTitle">1</h3>
-                                <p className="stepText">Wybierz <br/> rzeczy</p>
-                                <div className="stepOneBorder"></div>
-                            </div>
-                            <div className="stepTwo">
-                                <h3 className="stepTitle">2</h3>
-                                <p className="stepText">Spakuj je <br/> w worki</p>
-                                <div className="stepTwoBorder"></div>
-                            </div>
-                            <div className="stepThree">
-                                <h3 className="stepTitle">3</h3>
-                                <p className="stepText">Wybierz <br/> fundację</p>
-                                <div className="stepThreeBorder"></div>
-                            </div>
-                            <div className="stepFour">
-                                <h3 className="stepTitle">4</h3>
-                                <p className="stepText">Zamów <br/> kuriera</p>
-                                <div className="stepFourBorder"></div>
+                <div className="mainStepsContainer">
+                    <ul className="login">
+                        <li>Cześć {userState.email}!</li>
+                        <li><Link to="/donation">Oddaj rzeczy</Link></li>
+                        <li><Link to="/logout" onClick={logOut}>Wyloguj</Link></li>
+                    </ul>
+                    <NavBar/>
+                    <div className="mainForm">
+                        <div className="backgroundImage"></div>
+                        <div className="textContent">
+                            <h1 className="charityTitle">Oddaj rzeczy, których już nie chcesz <br/> POTRZEBUJĄCYM</h1>
+                            <div className="decoration"></div>
+                            <h2 className="steps">Wystarczą 4 proste kroki:</h2>
+                            <div className="stepsContainer">
+                                <div className="stepOne">
+                                    <h3 className="stepTitle">1</h3>
+                                    <p className="stepText">Wybierz <br/> rzeczy</p>
+                                    <div className="stepOneBorder"></div>
+                                </div>
+                                <div className="stepTwo">
+                                    <h3 className="stepTitle">2</h3>
+                                    <p className="stepText">Spakuj je <br/> w worki</p>
+                                    <div className="stepTwoBorder"></div>
+                                </div>
+                                <div className="stepThree">
+                                    <h3 className="stepTitle">3</h3>
+                                    <p className="stepText">Wybierz <br/> fundację</p>
+                                    <div className="stepThreeBorder"></div>
+                                </div>
+                                <div className="stepFour">
+                                    <h3 className="stepTitle">4</h3>
+                                    <p className="stepText">Zamów <br/> kuriera</p>
+                                    <div className="stepFourBorder"></div>
+                                </div>
                             </div>
                         </div>
+                        <div className="yellowLabel">
+                            <div className="labelBackground"></div>
+                            <h3 className="labelTitle">Ważne!</h3>
+                            <p className="labelText">Uzupełnij szczegóły dotyczące Twoich rzeczy. Dzięki temu będziemy
+                                wiedzieć
+                                komu najlepiej je przekazać.</p>
+                        </div>
                     </div>
-                    <div className="yellowLabel">
-                        <div className="labelBackground"></div>
-                        <h3 className="labelTitle">Ważne!</h3>
-                        <p className="labelText">Uzupełnij szczegóły dotyczące Twoich rzeczy. Dzięki temu będziemy wiedzieć
-                            komu najlepiej je przekazać.</p>
-                    </div>
-                </div>
-                <div className="stepOneForm">
-                    <div className="stepOneFormBackground"></div>
-                    <div className="stepOneFormCurrentStep">Krok 1/4</div>
-                    <h2 className="stepOneFormTitle">Zaznacz co chcesz oddać:</h2>
+                    <div className="stepOneForm">
+                        <div className="stepOneFormBackground"></div>
+                        <div className="stepOneFormCurrentStep">Krok 1/4</div>
+                        <h2 className="stepOneFormTitle">Zaznacz co chcesz oddać:</h2>
 
-                    {[...currentStepOneMap].map(([key, value]) => {
-                        return <div key={key}>
-                            <label className="stepOneFormContainer">
-                                <input
-                                    type="radio"
-                                    name="chosenThing"
-                                    className="stepOneFormInput"
-                                    checked={value.checked}
-                                    value={value.text}
-                                    onChange={(e) => handleSelectChange(e, key)}/>
-                                {value.text}
-                            </label>
-                        </div>
-                    })}
-                    <Link className="mainPage" to="/">Strona główna</Link>
-                    <button onClick={moveOn}>DALEJ</button>
+                        {[...currentStepOneMap].map(([key, value]) => {
+                            return <div key={key}>
+                                <label className="stepOneFormContainer">
+                                    <input
+                                        type="radio"
+                                        name="chosenThing"
+                                        className="stepOneFormInput"
+                                        checked={value.checked}
+                                        value={value.text}
+                                        onChange={(e) => handleSelectChange(e, key)}/>
+                                    {value.text}
+                                </label>
+                            </div>
+                        })}
+                        <Link className="mainPage" to="/">Strona główna</Link>
+                        <button className="stepOneBtn" onClick={moveOn}>DALEJ</button>
+                    </div>
+                    <Contact/>
                 </div>
-                <Contact/>
             </>
         }
     }
