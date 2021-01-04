@@ -159,7 +159,6 @@ const Registration = () => {
                     }
                 });
                 signIn();
-                console.log("Dobra Walidacja")
             } else {
                 setBorders(prevState => {
                     return {
@@ -168,7 +167,6 @@ const Registration = () => {
                         none: "borderNone"
                     }
                 });
-                console.log("Zła walidacja")
             }
         };
 

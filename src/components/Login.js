@@ -120,9 +120,6 @@ const Login = () => {
                 }
             });
             login();
-            console.log('Dobra walidacja');
-        } else {
-            console.log('Zła walidacja');
         }
     };
 
