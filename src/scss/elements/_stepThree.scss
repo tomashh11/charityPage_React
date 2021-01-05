@@ -1,0 +1,276 @@
+.mainStepsContainer {
+  max-width: 1440px;
+  overflow: hidden;
+  .labelStepThreeText {
+    font-size: 18px;
+    font-family: $fontBase;
+    color: #3C3C3C;
+    width: 900px;
+    margin-left: 140px;
+    line-height: 25px;
+  }
+
+  .stepThreeForm {
+    margin-bottom: -855px;
+    .stepThreeFormBackground {
+      position: relative;
+      top: 34px;
+      background-image: url("../../assets/Background-Form.jpg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 1440px;
+      height: 883px;
+      z-index: -1;
+    }
+
+    .stepThreeFormCurrentStep {
+      position: relative;
+      top: -821px;
+      font-family: $fontBase;
+      font-size: 20px;
+      font-weight: 300;
+      color: #3C3C3C;
+      margin-left: 140px;
+    }
+
+    .stepThreeLocalization {
+      position: relative;
+      top: -788px;
+      font-size: 26px;
+      font-family: $fontBase;
+      font-weight: 600;
+      color: #000000;
+      margin-left: 140px;
+    }
+
+    .stepThreeFormSelect {
+      position: relative;
+      top: -771px;
+      outline: none;
+      width: 300px;
+      height: 49px;
+      border: 0.75px solid #3C3C3C;
+      margin-left: 140px;
+      background-color: transparent;
+      font-size: 20px;
+      font-weight: 300;
+      font-family: $fontBase;
+    }
+
+    select {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      background-image: url("../../assets/Icon-Arrow-Down.svg");
+      background-repeat: no-repeat;
+      background-position-x: 240px;
+      background-position-y: center;
+      padding-left: 10px;
+    }
+
+    .stepThreeChooseHelp {
+      position: relative;
+      top: -735px;
+      font-family: $fontBase;
+      font-size: 22px;
+      font-weight: 600;
+      color: #000;
+      margin-left: 140px;
+    }
+
+    .stepThreeContainerchildren {
+      position: relative;
+      top: -733px;
+      display: flex;
+      align-items: center;
+      margin-left: 140px;
+      font-family: $fontBase;
+      font-size: 20px;
+      font-weight: 300;
+      .stepThreechildren {
+        -webkit-appearance: none;
+        position: relative;
+        width: 130px;
+        height: 55px;
+        line-height: 40px;
+        border: 0.75px solid #3C3C3C;
+        margin-right: -105px;
+      }
+      .stepThreechildren:hover {
+        cursor: pointer;
+      }
+      .stepThreechildren:focus {
+        outline: none;
+      }
+      .stepThreechildren:checked {
+        background-color: #FAD648;
+        z-index: -1;
+      }
+    }
+
+    .stepThreeContainermothers {
+      position: relative;
+      top: -788px;
+      left: 159px;
+      display: flex;
+      align-items: center;
+      margin-left: 140px;
+      font-family: $fontBase;
+      font-size: 20px;
+      font-weight: 300;
+      .stepThreemothers {
+        -webkit-appearance: none;
+        position: relative;
+        width: 230px;
+        height: 55px;
+        line-height: 40px;
+        border: 0.75px solid #3C3C3C;
+        margin-right: -202px;
+      }
+      .stepThreemothers:hover {
+        cursor: pointer;
+      }
+      .stepThreemothers:focus {
+        outline: none;
+      }
+      .stepThreemothers:checked {
+        background-color: #FAD648;
+        z-index: -1;
+      }
+    }
+
+    .stepThreeContainerhomeless {
+      position: relative;
+      top: -843px;
+      left: 418px;
+      display: flex;
+      align-items: center;
+      margin-left: 140px;
+      font-family: $fontBase;
+      font-size: 20px;
+      font-weight: 300;
+      .stepThreehomeless {
+        -webkit-appearance: none;
+        position: relative;
+        width: 155px;
+        height: 55px;
+        line-height: 40px;
+        border: 0.75px solid #3C3C3C;
+        margin-right: -133px;
+      }
+      .stepThreehomeless:hover {
+        cursor: pointer;
+      }
+      .stepThreehomeless:focus {
+        outline: none;
+      }
+      .stepThreehomeless:checked {
+        background-color: #FAD648;
+        z-index: -1;
+      }
+    }
+
+    .stepThreeContainerdisabled {
+      position: relative;
+      top: -824px;
+      display: flex;
+      align-items: center;
+      margin-left: 140px;
+      font-family: $fontBase;
+      font-size: 20px;
+      font-weight: 300;
+      .stepThreedisabled {
+        -webkit-appearance: none;
+        position: relative;
+        width: 220px;
+        height: 55px;
+        line-height: 40px;
+        border: 0.75px solid #3C3C3C;
+        margin-right: -198px;
+      }
+      .stepThreedisabled:hover {
+        cursor: pointer;
+      }
+      .stepThreedisabled:focus {
+        outline: none;
+      }
+      .stepThreedisabled:checked {
+        background-color: #FAD648;
+        z-index: -1;
+      }
+    }
+
+    .stepThreeContainerolders {
+      position: relative;
+      top: -879px;
+      left: 249px;
+      display: flex;
+      align-items: center;
+      margin-left: 140px;
+      font-family: $fontBase;
+      font-size: 20px;
+      font-weight: 300;
+      .stepThreeolders {
+        -webkit-appearance: none;
+        position: relative;
+        width: 215px;
+        height: 55px;
+        line-height: 40px;
+        border: 0.75px solid #3C3C3C;
+        margin-right: -190px;
+      }
+      .stepThreeolders:hover {
+        cursor: pointer;
+      }
+      .stepThreeolders:focus {
+        outline: none;
+      }
+      .stepThreeolders:checked {
+        background-color: #FAD648;
+        z-index: -1;
+      }
+    }
+
+    .stepThreeOrganizationName {
+      position: relative;
+      top: -891px;
+      font-size: 22px;
+      font-family: $fontBase;
+      font-weight: 600;
+      color: #000000;
+      margin-left: 140px;
+    }
+
+    .stepThreeOrganizationNameContainer {
+      position: relative;
+      top: -875px;
+      margin-left: 140px;
+      .stepThreeOrganizationNameInput {
+        width: 520px;
+        height: 40px;
+        background-color: transparent;
+        border: 0.75px solid #3C3C3C;
+        outline: none;
+      }
+    }
+
+    .stepThreeBtn {
+      position: relative;
+      top: -820px;
+      width: 180px;
+      height: 80px;
+      font-family: $fontBase;
+      font-size: 20px;
+      font-weight: 300;
+      margin-left: 140px;
+      background-color: transparent;
+      border: 0.75px solid #3C3C3C;
+      outline: none;
+    }
+
+    .stepThreeBtn:hover {
+      cursor: pointer;
+      background-color: #ddd;
+    }
+  }
+}

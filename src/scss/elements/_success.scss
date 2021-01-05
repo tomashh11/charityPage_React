@@ -1,0 +1,61 @@
+.successContainer {
+  margin-bottom: -300px;
+  .mainStepsContainer {
+    max-width: 1440px;
+    overflow: hidden;
+
+    .successBackground {
+      position: relative;
+      top: 140px;
+      background-image: url("../../assets/Background-Form.jpg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 1440px;
+      height: 883px;
+      z-index: -1;
+    }
+    .successMessageContainer {
+      position: relative;
+      top: -495px;
+      left: -300px;
+      text-align: center;
+      line-height: 50px;
+      .successMessage {
+        font-size: 40px;
+        font-family: $fontBase;
+        font-weight: 300;
+        color: #3C3C3C;
+      }
+    }
+
+    .successDecoration {
+      background-image: url("../../assets/Decoration.svg");
+      width: 253px;
+      height: 33px;
+      position: relative;
+      top: -470px;
+      left: 300px;
+      margin-bottom: -40px;
+    }
+
+    .mainPage {
+      position: relative;
+      top: -375px;
+      left: 350px;
+      box-sizing: border-box;
+      text-decoration: none;
+      font-size: 18px;
+      font-family: $fontBase;
+      font-weight: 300;
+      color: #000000;
+      padding: 13px 18px;
+      margin-top: 0;
+      width: 180px;
+      background-color: transparent;
+      border: 0.75px solid #3C3C3C;
+    }
+    .mainPage:hover {
+      background-color: #F0F1F1;
+    }
+  }
+}

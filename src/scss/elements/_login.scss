@@ -1,0 +1,152 @@
+.login {
+  font-size: 14px;
+  font-family: $fontBase;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 37px;
+  margin-right: 62px;
+  li a {
+    text-decoration: none;
+    color: #737373;
+    padding: 9px 10px;
+    margin-left: 10px;
+    border: 0.75px solid white;
+  }
+  li a:hover {
+    border: 0.75px solid #FAD648;
+    cursor: pointer;
+  }
+}
+
+.panelLogin {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  h2 {
+    font-size: 40px;
+    font-family: $fontBase;
+    color: #3C3C3C;
+    margin-top: 60px;
+  }
+  .panelLoginDecoration {
+    background-image: url("../../assets/Decoration.svg");
+    width: 253px;
+    height: 33px;
+    margin: 25px auto 60px;
+  }
+  .panelLoginInputContainer {
+    width: 385px;
+    height: 235px;
+    background-color: #F0F1F1;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: $fontBase;
+    font-weight: 400;
+    color: #3C3C3C;
+    padding-top: 40px;
+    padding-left: 65px;
+    text-align: left;
+    input[type="email"] {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      border: none;
+      border-bottom: 1px solid #707070;
+      width: 250px;
+      background-color: #F0F1F1;
+    }
+    input[type="password"] {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      border: none;
+      border-bottom: 1px solid #707070;
+      width: 250px;
+      background-color: #F0F1F1;
+      margin-top: 12px;
+      font-size: 18px;
+    }
+    input[type="email"].borderNone, input[type="password"].borderNone {
+      border-bottom: none;
+    }
+    .errorUnderline {
+      width: 250px;
+      border-top: 2px solid red;
+    }
+  }
+}
+
+.panelLogin {
+  .panelLoginSubmitContainer {
+    margin: 40px auto 0;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    .linkSubmit {
+      border: 0.75px solid white;
+      padding: 18px 15px;
+      font-size: 18px;
+      font-family: $fontBase;
+      font-weight: 300;
+      color: #000000;
+      cursor: pointer;
+      outline: none;
+      background-color: #F0F1F1;
+      text-decoration: none;
+    }
+    .linkSubmit:hover {
+      border: 0.75px solid #3C3C3C;
+    }
+    button[type="submit"] {
+      border: 0.75px solid white;
+      padding: 13px 15px;
+      font-size: 18px;
+      font-family: $fontBase;
+      font-weight: 300;
+      color: #000000;
+      cursor: pointer;
+      outline: none;
+    }
+    button[type="submit"]:hover {
+      border: 0.75px solid #3C3C3C;
+    }
+  }
+  .logOutLink {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size:18px;
+    font-family: $fontBase;
+    font-weight: 300;
+    color: #000000;
+    background-color: #F0F1F1;
+    padding: 13px 18px;
+    margin-top: 0;
+    width: 180px;
+    border: 0.75px solid transparent;
+  }
+  .logOutLink:hover {
+    border: 0.75px solid #3C3C3C;
+  }
+}
+
+.loginConfirmContainer {
+  .panelLogin {
+    .panelLoginInputContainer {
+      height: 328px;
+    }
+  }
+}
+
+.loginError, .passwordError {
+  color: red;
+  margin-top: 8px;
+  margin-bottom: 11px;
+  font-family: $fontBase;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+

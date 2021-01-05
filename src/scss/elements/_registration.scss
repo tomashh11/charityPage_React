@@ -1,0 +1,10 @@
+.emailRegisterError,
+.passwordRegisterError,
+.passwordRegisterConfirmError {
+  color: red;
+  margin-top: 8px;
+  margin-bottom: 11px;
+  font-family: $fontBase;
+  font-weight: 700;
+  font-size: 12px;
+}

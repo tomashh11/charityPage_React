@@ -1,0 +1,220 @@
+.mainStepsContainer {
+  max-width: 1440px;
+  overflow: hidden;
+
+  .summaryBackground {
+    position: relative;
+    top: 140px;
+    background-image: url("../../assets/Background-Form.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 883px;
+    z-index: -1;
+  }
+
+  .summaryContainer {
+    margin-bottom: -788px;
+    .summaryMainTitle {
+      position: relative;
+      top: -717px;
+      font-family: $fontBase;
+      font-size: 26px;
+      font-weight: 600;
+      margin-left: 140px;
+    }
+
+    .summarySecondTitle {
+      position: relative;
+      top: -683px;
+      font-size: 22px;
+      font-weight: 600;
+      font-family: $fontBase;
+      margin-left: 140px;
+    }
+
+    .shirtIcon {
+      background-image: url("../../assets/Icon-1.svg");
+      width: 50px;
+      height: 50px;
+      background-color: transparent;
+      background-size: contain;
+      margin-left: 140px;
+      position: relative;
+      top: -665px;
+    }
+
+    .currentCharity {
+      position: relative;
+      top: -700px;
+      margin-left: 220px;
+      font-family: $fontBase;
+      font-size: 18px;
+    }
+
+    .localizationIcon {
+      background-image: url("../../assets/Icon-4.svg");
+      width: 50px;
+      height: 50px;
+      background-color: transparent;
+      background-size: contain;
+      margin-left: 140px;
+      position: relative;
+      top: -685px;
+    }
+
+    .currentLocalization {
+      font-family: $fontBase;
+      font-size: 18px;
+      position: relative;
+      top: -720px;
+      margin-left: 220px;
+    }
+
+    .summaryAddress {
+      font-size: 22px;
+      font-weight: 600;
+      font-family: $fontBase;
+      position: relative;
+      top: -687px;
+      margin-left: 140px;
+    }
+    .summaryStreetContainer {
+      font-size: 18px;
+      font-weight: 300;
+      font-family: $fontBase;
+      position: relative;
+      top: -662px;
+      margin-left: 140px;
+      .summaryStreet {
+        margin-left: 128px;
+      }
+    }
+
+    .summaryCityContainer {
+      font-size: 18px;
+      font-weight: 300;
+      font-family: $fontBase;
+      position: relative;
+      top: -642px;
+      margin-left: 140px;
+      .summaryCity {
+        margin-left: 108px;
+      }
+    }
+
+    .summaryPostCodeContainer {
+      font-size: 18px;
+      font-weight: 300;
+      font-family: $fontBase;
+      position: relative;
+      top: -622px;
+      margin-left: 140px;
+      .summaryPostCodeTitle {
+        width: 100px;
+        line-height: 28px;
+      }
+      .summaryPostCode {
+        position: relative;
+        top: -38px;
+        left: 167px;
+      }
+    }
+
+    .summaryPhoneNumberContainer {
+      font-size: 18px;
+      font-weight: 300;
+      font-family: $fontBase;
+      position: relative;
+      top: -622px;
+      margin-left: 140px;
+      .summaryPhoneNumberTitle {
+        width: 100px;
+        line-height: 28px;
+      }
+      .summaryPhoneNumber {
+        position: relative;
+        top: -38px;
+        left: 168px;
+      }
+    }
+
+    .summaryDateOfReceiptTitle {
+      font-family: $fontBase;
+      font-size: 22px;
+      font-weight: 600;
+      position: relative;
+      top: -909px;
+      left: 600px;
+    }
+
+    .summaryDateOfReceiptContainer {
+      font-size: 18px;
+      font-weight: 300;
+      font-family: $fontBase;
+      position: relative;
+      top: -884px;
+      margin-left: 600px;
+      .summaryDateOfReceiptDate {
+        position: relative;
+        top: 0px;
+        left: 100px;
+      }
+    }
+
+    .summaryTimeContainer {
+      font-size: 18px;
+      font-weight: 300;
+      font-family: $fontBase;
+      position: relative;
+      top: -864px;
+      margin-left: 600px;
+      .summaryTime {
+        position: relative;
+        top: 0px;
+        left: 71px;
+      }
+    }
+
+    .summaryMessageToCourierContainer {
+      font-size: 18px;
+      font-weight: 300;
+      font-family: $fontBase;
+      position: relative;
+      top: -844px;
+      margin-left: 600px;
+      .summaryMessageToCourierTitle {
+        width: 110px;
+        line-height: 28px;
+      }
+      .summaryMessageToCourier {
+        position: relative;
+        top: -40px;
+        left: 143px;
+      }
+    }
+
+    .summaryBtn {
+      position: relative;
+      top: -754px;
+      width: 180px;
+      height: 80px;
+      font-family: $fontBase;
+      font-size: 24px;
+      font-weight: 300;
+      margin-left: 140px;
+      background-color: transparent;
+      border: 0.75px solid #3C3C3C;
+      outline: none;
+    }
+
+    .summaryBtn:hover {
+      cursor: pointer;
+      background-color: #ddd;
+    }
+
+    .summaryConfirmBtn {
+      width: 244px;
+    }
+  }
+}

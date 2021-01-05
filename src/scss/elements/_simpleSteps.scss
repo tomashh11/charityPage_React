@@ -3,108 +3,97 @@
   flex-direction: column;
   text-align: center;
   position: relative;
+  .simpleStepsHeader {
+    margin: 55px 0 92px;
+    color: #3C3C3C;
+    font-family: $fontBase;
+    font-size: 38px;
+    position: relative;
+  }
+  .decorationLogo {
+    position: absolute;
+    top: 120px;
+    left: 595px;
+    height: 33px;
+    width: 253px;
+    background-image: url("../../assets/Decoration.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .simpleStepsMain {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F0F1F1;
+    padding: 0 200px;
+    .singleStep {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 70px;
+      .choose {
+        height: 83px;
+        width: 83px;
+        background-image: url("../../assets/Icon-1.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      .pack {
+        height: 83px;
+        width: 83px;
+        background-image: url("../../assets/Icon-2.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      .decide {
+        height: 83px;
+        width: 83px;
+        background-image: url("../../assets/Icon-3.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      .courier {
+        height: 83px;
+        width: 83px;
+        background-image: url("../../assets/Icon-4.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      .singleStepHeader {
+        margin-top: 10px;
+        font-family: $fontBase;
+        font-size: 18px;
+        color: #3C3C3C;
+        line-height: 120%;
+      }
+      .singleStepUnderline {
+        margin: 10px 0;
+        width: 70px;
+        border-bottom: 1px solid #707070;
+      }
+      .singleStepText {
+        font-family: $fontBase;
+        font-size: 16px;
+        color: #3C3C3C;
+        line-height: 120%;
+        margin-bottom: 60px;
+      }
+    }
+  }
+  .simpleStepButton {
+    display: flex;
+    margin: 35px auto;
+    font-family: $fontBase;
+    font-size: 36px;
+    font-weight: 300;
+    text-transform: uppercase;
+    .donationLink {
+      line-height: 120%;
+      border: 0.75px solid #3C3C3C;
+      padding: 13px 0;
+      width: 310px;
+      text-decoration: none;
+      color: #3C3C3C;
+    }
+  }
 }
 
-.simpleStepsMain {
-  display: flex;
-  justify-content: space-between;
-  background-color: #F0F1F1;
-  padding: 0 200px;
-}
-
-.simpleStepsHeader {
-  margin: 55px 0 92px;
-  color: #3C3C3C;
-  font-family: $fontBase;
-  font-size: 38px;
-  position: relative;
-}
-
-.decorationLogo {
-  position: absolute;
-  top: 120px;
-  left: 710px;
-  height: 33px;
-  width: 253px;
-  background-image: url("../../assets/Decoration.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.singleStep {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 70px;
-}
-
-.choose {
-  height: 83px;
-  width: 83px;
-  background-image: url("../../assets/Icon-1.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.pack {
-  height: 83px;
-  width: 83px;
-  background-image: url("../../assets/Icon-2.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.decide {
-  height: 83px;
-  width: 83px;
-  background-image: url("../../assets/Icon-3.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.courier {
-  height: 83px;
-  width: 83px;
-  background-image: url("../../assets/Icon-4.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.singleStepHeader {
-  margin-top: 10px;
-  font-family: $fontBase;
-  font-size: 18px;
-  color: #3C3C3C;
-  line-height: 120%;
-}
-
-.singleStepUnderline {
-  margin: 10px 0;
-  width: 70px;
-  border-bottom: 1px solid #707070;
-}
-
-.singleStepText {
-  font-family: $fontBase;
-  font-size: 16px;
-  color: #3C3C3C;
-  line-height: 120%;
-  margin-bottom: 60px;
-}
-
-.simpleStepButton {
-  margin: 35px auto;
-  font-family: $fontBase;
-  line-height: 120%;
-  font-size: 36px;
-  font-weight: 300;
-  text-transform: uppercase;
-  border: 0.75px solid #3C3C3C;
-  padding: 13px 0;
-  width: 310px;
-}
-
-.simpleStepButton a {
-  color: #3C3C3C;
-  text-decoration: none;
-}

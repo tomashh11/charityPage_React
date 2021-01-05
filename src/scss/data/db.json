@@ -1,0 +1,99 @@
+{
+  "fundations": [
+    {
+      "header": "To jest pierwszy tytuł",
+      "subheader": "To jest pierwszy subtitle",
+      "desc": "To jest opis"
+    },
+    {
+      "header": "To jest header",
+      "subheader": "To jest subheader",
+      "desc": "To jest desc"
+    },
+    {
+      "header": "Header numer 2",
+      "subheader": "Subheader numer 2",
+      "desc": "Opis numer 2"
+    },
+    {
+      "header": "Kolejny opis",
+      "subheader": "Kolejny podpopis",
+      "desc": "Opis dodatkowy"
+    },
+    {
+      "header": "Następna organizacja",
+      "subheader": "Opis organizacji",
+      "desc": "Szczegółowy opis"
+    },
+    {
+      "header": "Następna fundacja",
+      "subheader": "Opis fundacji",
+      "desc": "Szczegóły fundacji"
+    },
+    {
+      "header": "Header numer 5",
+      "subheader": "Opis numer 5",
+      "desc": "Szczegóły headera"
+    },
+    {
+      "header": "Globalna organizacja",
+      "subheader": "Globalny opis",
+      "desc": "Brak opisu"
+    },
+    {
+      "header": "Organizacja 'Twoja nadzieja' ",
+      "subheader": "Opis nadzei",
+      "desc": "Szczegóły nadzei"
+    }
+  ],
+  "organizations": [
+    {
+      "header": "Nowa organizacja",
+      "subheader": "Opis nowej organizacji",
+      "desc": "Nowa organizacja szczegóły"
+    },
+    {
+      "header": "Kolejna kolejka",
+      "subheader": "Kolejki opis",
+      "desc": "Szczegóły kolejki"
+    },
+    {
+      "header": "Donroczynna fundacja",
+      "subheader": "Opis dobroczynności",
+      "desc": "Szczegóły dobroczynności"
+    },
+    {
+      "header": "Wolna organizacja",
+      "subheader": "Wolny opis",
+      "desc": "Wolny opis szczegółowy"
+    },
+    {
+      "header": "Szybka organizacja",
+      "subheader": "Opis szybkiej organizacji",
+      "desc": "Szczegóły organizacji"
+    },
+    {
+      "header": "Fundacja bez nazwy",
+      "subheader": "Opis bez nazwy",
+      "desc": "Szczegóły szczegółów"
+    }
+  ],
+  "localOrganizations": [
+    {
+      "header": "Lokalna organizacja",
+      "subheader": "Lokalny opis",
+      "desc": "Szczegóły lokalnego opisu"
+    },
+    {
+      "header": "Ostatnia organizacja",
+      "subheader": "Ostatni opis",
+      "desc": "Szczegóły opisu"
+    },
+    {
+      "header": "Lokalna ostatnia",
+      "subheader": "Ostatni opis lokalny",
+      "desc": "Szczegóły ostatniego opisu"
+    }
+  ]
+}
+

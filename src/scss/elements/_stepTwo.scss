@@ -1,0 +1,83 @@
+.mainStepsContainer {
+  max-width: 1440px;
+  overflow: hidden;
+  .stepTwoForm {
+    margin-bottom: -388px;
+    .stepTwoFormBackground {
+      position: relative;
+      top: 66px;
+      background-image: url("../../assets/Background-Form.jpg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 1440px;
+      height: 883px;
+      z-index: -1;
+    }
+    .stepTwoFormCurrentStep {
+      position: relative;
+      top: -789px;
+      font-family: $fontBase;
+      font-size: 20px;
+      font-weight: 300;
+      color: #3C3C3C;
+      margin-left: 140px;
+    }
+    .stepTwoFormTitle {
+      position: relative;
+      top: -756px;
+      font-size: 26px;
+      font-family: $fontBase;
+      font-weight: 600;
+      color: #000;
+      margin-left: 140px;
+    }
+    .stepTwoFormContainer {
+      position: relative;
+      top: -719px;
+      display: flex;
+      align-items: center;
+      margin-left: 140px;
+      font-family: $fontBase;
+      font-size: 20px;
+      font-weight: 300;
+      .stepTwoFormSelect {
+        outline: none;
+        width: 300px;
+        height: 49px;
+        border: 0.75px solid #3C3C3C;
+        margin-left: 25px;
+        background-color: transparent;
+        font-size: 20px;
+        font-weight: 300;
+        font-family: $fontBase;
+      }
+      select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background-image: url("../../assets/Icon-Arrow-Down.svg");
+        background-repeat: no-repeat;
+        background-position-x: 240px;
+        background-position-y: center;
+        padding-left: 10px;
+      }
+    }
+    .stepTwoFormBtn {
+      position: relative;
+      top: -353px;
+      width: 180px;
+      height: 80px;
+      font-family: $fontBase;
+      font-size: 20px;
+      font-weight: 300;
+      margin-left: 140px;
+      background-color: transparent;
+      border: 0.75px solid #3C3C3C;
+      outline: none;
+    }
+    .stepTwoFormBtn:hover {
+      cursor: pointer;
+      background-color: #ddd;
+    }
+  }
+}

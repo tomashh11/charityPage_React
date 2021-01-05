@@ -1,0 +1,30 @@
+.panelLogOut {
+  width: 430px;
+  margin: 120px auto 0;
+  text-align: center;
+  h2{
+    font-size: 40px;
+    font-family: $fontBase;
+    color: #3C3C3C;
+  }
+  .panelLoginDecoration {
+    background-image: url("../../assets/Decoration.svg");
+    width: 253px;
+    height: 33px;
+    margin: 25px auto 35px;
+  }
+  .logOutLink {
+    background-color: #F0F1F1;
+    text-decoration: none;
+    font-size:18px;
+    font-family: $fontBase;
+    font-weight: 300;
+    color: #000000;
+    padding: 13px 18px;
+    margin-top: 0;
+  }
+  .logOutLink:hover {
+    cursor: pointer;
+    border: 0.75px solid #3C3C3C;
+  }
+}
