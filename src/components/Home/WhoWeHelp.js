@@ -10,7 +10,7 @@ const WhoWeHelp = () => {
     const indexOfFirstFundation = indexOfLastFundation - fundationsPerPage;
 
     useEffect(() => {
-        fetch(`http://localhost:3000/${currentTopic}`)
+        fetch(`${process.env.REACT_APP_API_URL}/${currentTopic}`)
             .then(res => res.json())
             .then(response => setFundations(response))
     }, [currentTopic]);

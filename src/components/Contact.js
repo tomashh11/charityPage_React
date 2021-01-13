@@ -146,7 +146,7 @@ const Contact = () => {
                     noneTextarea: ""
                 }
             });
-            fetch(`https://fer-api.coderslab.pl/v1/portfolio/contact`, {
+            fetch(`${process.env.REACT_APP_API_URL_CL}`, {
                 method: 'POST',
                 body: JSON.stringify(form),
                 headers: {
